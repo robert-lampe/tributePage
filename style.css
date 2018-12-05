@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css?family=Shrikhand|Roboto|Bangers|Black+Han+Sans|Abril+Fatface');
+
+html {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-family: "Roboto" , sans-serif;
+  background-image: linear-gradient(
+    #001a66,
+    #002db3,
+    #0040ff,
+    #d2a679
+    );
+    min-height: 100%;
+}
+
+#page-wrapper {
+  position: relative;
+}
+
+.titles {
+  line-height: 10px;
+}
+
+#title {
+  font-family: "Abril Fatface" , cursive;
+  font-size: 8vw;
+  color: white;
+  letter-spacing: 5px;
+  white-space: nowrap;
+}
+
+#subtitle {
+  font-family: "Roboto" , sans-serif;
+  color: #f2f2f2;
+  letter-spacing: 3px;
+  font-size: 1.3vw;
+  font-style: italic;
+  white-space: nowrap;
+
+}
+
+
+#img-div {
+  text-align: center;
+  line-height: 10px;
+}
+
+#image {
+  max-width: 100%;
+  display: block;
+  margin: auto;
+  box-shadow: 0 10px 10px 20px rgba(0, 0, 0, .19),
+  0 10px 10px 10px rgba(0, 0, 0, .23);
+}
+
+#img-caption {
+  font-style: italic;
+  font-size: 12px;
+  color: white;
+}
+
+#facts {
+  font-family: "Abril Fatface" , cursive;
+  font-size: 20px;
+  color: yellow;
+  letter-spacing: 2px;
+  font-style: italic;
+}
+
+#tribute-info {
+  background: rgba(255, 255, 255, .80);
+  margin: auto;
+  width: 75%;
+  list-style-position: inside;
+  line-height: normal;
+  box-shadow: 0 10px 20px 4px rgba(0, 0, 0, .21);
+}
+
+#info-list {
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 20px;
+  padding-top: 10px;
+
+
+}
+
+/* this is experiment with grid, may not need this. may be able to do two
+images side by side with box model like hubbard....
+
+.sub-img {
+  display: grid;
+  grid-template-areas:
+  "image1 image2"
+  "content .";
+  background: #cccccc;
+
+
+}
+
+#young-crowley {
+  grid-area: image1;
+  max-width: 50%;
+}
+
+#old-crowley {
+  grid-area: image2;
+  max-width: 50%;
+}
+
+#sub-img-text {
+  grid-area: content;
+}
+
+*/
+
+
+/* the sub-img is a class that is used to contain the Wikipedia style
+sub-entries -- photos and a caption -- global */
+
+.sub-img {
+  width: 60%;
+  background: #cccccc;
+  border: 2px solid rgba(0, 0, 0, .14);
+  box-shadow: 0 10px 20px 5px rgba(0, 0, 0, .08);
+  margin: auto;
+}
+
+#jack-standing {
+  position: relative;
+  max-width: 70%;
+  padding: 10px 5px 5px 10px;
+}
+
+#jack-description {
+  font-size: 12px;
+  font-style: italic;
+}
+
+#young-crowley {
+  position: relative;
+  max-width: 40%;
+  padding: 10px 5px 5px 20px;
+}
+
+#old-crowley {
+  position: relative;
+  max-width: 40%;
+  padding: 10px 20px 5px 5px;
+}
+
+#sub-img-text {
+  font-size: 12px;
+  font-style: italic;
+  padding: 5px 20px 5px 20px;
+}
+
+
+/*  Code below not needed, created the class "sub-img" which is a container for any
+Wikipedia style image/text box
+
+#hubbard {
+  width: 500px;
+  background: #cccccc;
+  border: 2px solid rgba(0, 0, 0, .14);
+  box-shadow: 0 10px 20px 5px rgba(0, 0, 0, .08);
+  margin: auto;
+}
+
+*/
+
+#hubbard-img {
+  max-width: 80%;
+  max-height: 100%;
+  padding: 10px 5px 5px 5px;
+}
+
+#hubbard-about {
+  font-size: 12px;
+  font-style: italic;
+}
+
+
+#copyright {
+  font-size: 12px;
+  font-style: italic;
+  font-family: "Roboto" , sans-serif;
+}
+
+b {
+  font-weight: bold;
+  font-style: normal;
+}
