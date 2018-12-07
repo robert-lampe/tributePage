@@ -1,5 +1,17 @@
 @import url('https://fonts.googleapis.com/css?family=Shrikhand|Roboto|Bangers|Black+Han+Sans|Abril+Fatface');
 
+@media (max-height: 600px) {
+  #title {
+    font-size: 3vw;
+  }
+  #subtitle {
+    font-size: .7vw;
+    white-space: normal;
+    line-height: normal;
+    letter-spacing: normal;
+  }
+}
+
 html {
   margin-left: auto;
   margin-right: auto;
